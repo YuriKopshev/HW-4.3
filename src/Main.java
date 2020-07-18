@@ -5,7 +5,10 @@ public class Main {
         int payment2 = (int) annuityPay.calculate(1_000_000, 9.99, 24);
         int payment3 = (int) annuityPay.calculate(1_000_000, 9.99, 36);
         System.out.println(payment1);
+        System.out.println();
         System.out.println(payment2);
+        System.out.println();
         System.out.println(payment3);
+
     }
 }
